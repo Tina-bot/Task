@@ -1,22 +1,26 @@
 body {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(249, 250, 250, 0.521)), to(#006eff6c)) fixed;
-
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(249, 249, 250, 0.521)),
+      to(#006eff6c)
+    )
+    fixed;
 }
-  
 
-.card{
-    background-color: rgba(193, 191, 202, 0.137);
-    display: flex;
-    width: 500px;
-    box-shadow: 3px 3px 3px 3px rgba(4, 6, 107, 0.233);
-    border-color: #006eff6c;
+.card {
+  background-color: rgba(193, 191, 202, 0.137);
+  display: flex;
+  width: 500px;
+  box-shadow: 3px 3px 3px 3px rgba(4, 6, 107, 0.233);
+  border-color: #006eff6c;
 }
-#tasks{
-    display: flex;
-    justify-content: end;
-    direction: rtl;
-    flex-wrap: wrap;
-    left: 400px;
-
-
+#tasks {
+  margin-left: 200px;
+  display: flex;
+  justify-content: end;
+  direction: rtl;
+  flex-wrap: wrap;
+  left: 600px;
 }
